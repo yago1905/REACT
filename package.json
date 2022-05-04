@@ -2,6 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yago1905.github.io/REACT/",
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "start": "webpack serve --mode=development",
-    "build": "react-scripts build",
+    "build": "webpack --mode=production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
